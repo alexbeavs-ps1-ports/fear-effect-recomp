@@ -17,13 +17,28 @@ out_dir = "disc"
 bin_name = "Fear Effect (USA) (Disc 1).bin"
 cue_name = "Fear Effect (USA) (Disc 1).cue"
 boot_exe = "SLUS_009.20"
-known_sizes = [487435536]
-known_md5 = ["e08b3a0d9694decd3ef9bc41c212bf1b"]
-known_sha1 = ["e96eb6d83dd890103b3d3511cb84da73adab2cde"]
-known_crc32 = ["0044d5f7"]
+known_sizes = [487435536, 505757616, 451666320, 509955936]
+known_md5 = [
+  "e08b3a0d9694decd3ef9bc41c212bf1b",
+  "dff47ce1c1ec5a9c5a35820224486b22",
+  "cd6fc71e6f452e1b4027250dd7d6d65c",
+  "e269350708617a92359ceef2d7838f3c",
+]
+known_sha1 = [
+  "e96eb6d83dd890103b3d3511cb84da73adab2cde",
+  "0c2ffb3dd07ffb628b1fa69ca841cec141da11dd",
+  "a4205816f6486d8d1f5b97195370fd402003f983",
+  "bc1762d51eb1e35b940ae304af6622e9d9eb989d",
+]
+known_crc32 = [
+  "0044d5f7",
+  "cb8e774f",
+  "fd0f561b",
+  "9853995e",
+]
 
 [recompiler]
-bios_config = "psxrecomp/bios/SCPH5552.toml"
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true
