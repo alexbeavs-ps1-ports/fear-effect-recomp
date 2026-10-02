@@ -46,7 +46,7 @@ strict = true
 [runtime]
 window_title = "Fear Effect Recompiled"
 memcard_dir = "saves"
-bios_hle = true
+bios_hle = false
 openbios = false
 overlay_cache = true
 
